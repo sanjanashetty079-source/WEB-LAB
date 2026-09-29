@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjana Jayakumar Shetty - Resume</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #e9ecef;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .resume {
+            width: 850px;
+            max-width: 95%;
+            margin: 30px auto;
+            background: white;
+            padding: 45px 55px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #1f4e79;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            color: #1f4e79;
+            margin-bottom: 8px;
+        }
+
+        .header h3 {
+            font-size: 18px;
+            color: #555;
+            font-weight: normal;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            font-size: 14px;
+            color: #444;
+        }
+
+        .contact span {
+            margin: 0 8px;
+        }
+
+        /* Sections */
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 19px;
+            color: #1f4e79;
+            text-transform: uppercase;
+            border-bottom: 1px solid #1f4e79;
+            padding-bottom: 5px;
+            margin-bottom: 12px;
+        }
+
+        /* Objective */
+        .objective {
+            text-align: justify;
+            font-size: 14px;
+        }
+
+        /* Education */
+        .education-item {
+            margin-bottom: 12px;
+        }
+
+        .education-item h3 {
+            font-size: 16px;
+            color: #222;
+        }
+
+        .education-item p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .education-item strong {
+            color: #1f4e79;
+        }
+
+        /* Skills */
+        .skills {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px 30px;
+            font-size: 14px;
+        }
+
+        .skill-category {
+            font-weight: bold;
+            color: #222;
+        }
+
+        /* Projects */
+        .project {
+            margin-bottom: 15px;
+        }
+
+        .project h3 {
+            font-size: 16px;
+            color: #222;
+            margin-bottom: 4px;
+        }
+
+        .project ul {
+            margin-left: 20px;
+        }
+
+        .project li {
+            font-size: 14px;
+            margin-bottom: 3px;
+        }
+
+        /* Internship */
+        .internship h3 {
+            font-size: 16px;
+            color: #222;
+        }
+
+        .internship p {
+            font-size: 14px;
+        }
+
+        /* Certifications */
+        .certifications ul {
+            margin-left: 20px;
+        }
+
+        .certifications li {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        /* Areas */
+        .areas {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .area {
+            background-color: #1f4e79;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 13px;
+        }
+
+        /* Print Button */
+        .print-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #1f4e79;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        .print-btn:hover {
+            background-color: #163a5c;
+        }
+
+        /* Mobile */
+        @media (max-width: 600px) {
+
+            .resume {
+                width: 95%;
+                padding: 25px;
+            }
+
+            .header h1 {
+                font-size: 25px;
+            }
+
+            .skills {
+                grid-template-columns: 1fr;
+            }
+
+            .contact span {
+                display: block;
+                margin: 3px;
+            }
+        }
+
+        /* Print */
+        @media print {
+
+            body {
+                background: white;
+            }
+
+            .resume {
+                width: 100%;
+                max-width: 100%;
+                margin: 0;
+                padding: 25px;
+                box-shadow: none;
+            }
+
+            .print-btn {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="resume">
+
+        <!-- HEADER -->
+        <header class="header">
+
+            <h1>SANJANA JAYAKUMAR SHETTY</h1>
+
+            <h3>B.E. Computer Science & Engineering Student</h3>
+
+            <div class="contact">
+                <span>Bangalore</span> |
+                <span>725941509</span> |
+                <span>sanjanashetty079@gmail.com</span>
+            </div>
+
+        </header>
+
+
+        <!-- CAREER OBJECTIVE -->
+        <section class="section">
+
+            <h2 class="section-title">Career Objective</h2>
+
+            <p class="objective">
+                Motivated and enthusiastic Computer Science Engineering student
+                with a strong academic record and hands-on exposure to
+                programming, web technologies, databases, and software
+                development. Interested in applying technical knowledge to
+                real-world problems while continuously developing skills in
+                emerging technologies. Seeking opportunities to contribute to
+                innovative projects and gain industry experience.
+            </p>
+
+        </section>
+
+
+        <!-- EDUCATION -->
+        <section class="section">
+
+            <h2 class="section-title">Education</h2>
+
+            <div class="education-item">
+
+                <h3>B.E. – Computer Science & Engineering</h3>
+
+                <p>
+                    <strong>BMS Institute of Technology and Management</strong>,
+                    Bangalore
+                </p>
+
+                <p>
+                    3rd Year | 5th Semester |
+                    Expected Graduation: 2028
+                </p>
+
+                <p>
+                    CGPA: <strong>8.89 / 10</strong>
+                </p>
+
+            </div>
+
+
+            <div class="education-item">
+
+                <h3>Higher Secondary (12th)</h3>
+
+                <p>
+                    Percentage:
+                    <strong>95%</strong>
+                </p>
+
+            </div>
+
+
+            <div class="education-item">
+
+                <h3>Secondary School (10th)</h3>
+
+                <p>
+                    Percentage:
+                    <strong>96.64%</strong>
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- TECHNICAL SKILLS -->
+        <section class="section">
+
+            <h2 class="section-title">Technical Skills</h2>
+
+            <div class="skills">
+
+                <div>
+                    <span class="skill-category">
+                        Programming Languages:
+                    </span>
+                    C, C++, Java, Python
+                </div>
+
+                <div>
+                    <span class="skill-category">
+                        Web Technologies:
+                    </span>
+                    HTML, React
+                </div>
+
+                <div>
+                    <span class="skill-category">
+                        Databases:
+                    </span>
+                    MySQL, MongoDB
+                </div>
+
+                <div>
+                    <span class="skill-category">
+                        Tools:
+                    </span>
+                    Git, VS Code, MATLAB
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS -->
+        <section class="section">
+
+            <h2 class="section-title">Projects</h2>
+
+
+            <div class="project">
+
+                <h3>NammaDhwani – AI Grievance Portal</h3>
+
+                <ul>
+                    <li>
+                        Developed an AI-based grievance portal designed
+                        to provide users with a platform to submit and
+                        manage grievances.
+                    </li>
+
+                    <li>
+                        Focused on applying technology to improve
+                        accessibility and grievance-handling processes.
+                    </li>
+                </ul>
+
+            </div>
+
+
+            <div class="project">
+
+                <h3>SaferHer – Safety Routes for Women</h3>
+
+                <ul>
+                    <li>
+                        Developed a safety-focused solution designed
+                        to help women identify safer routes while
+                        travelling.
+                    </li>
+
+                    <li>
+                        Focused on using technology to address
+                        real-world personal safety challenges.
+                    </li>
+                </ul>
+
+            </div>
+
+        </section>
+
+
+        <!-- INTERNSHIP -->
+        <section class="section internship">
+
+            <h2 class="section-title">Internship</h2>
+
+            <h3>IBM – Internship</h3>
+
+            <p>
+                <strong>Duration:</strong> 6 Weeks
+            </p>
+
+            <ul>
+                <li>
+                    Completed a six-week internship with IBM.
+                </li>
+
+                <li>
+                    Gained exposure to a professional technology
+                    environment and industry-oriented learning.
+                </li>
+            </ul>
+
+        </section>
+
+
+        <!-- CERTIFICATIONS -->
+        <section class="section certifications">
+
+            <h2 class="section-title">Certifications & Courses</h2>
+
+            <ul>
+
+                <li>
+                    Human Resources (HR) – Course/Certification
+                </li>
+
+                <li>
+                    Large Language Models (LLM) – NPTEL Course
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- AREAS OF INTEREST -->
+        <section class="section">
+
+            <h2 class="section-title">Areas of Interest</h2>
+
+            <div class="areas">
+
+                <span class="area">Software Development</span>
+
+                <span class="area">Web Development</span>
+
+                <span class="area">Artificial Intelligence</span>
+
+                <span class="area">Emerging Technologies</span>
+
+                <span class="area">Problem Solving</span>
+
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <!-- PRINT BUTTON -->
+
+    <button class="print-btn" onclick="window.print()">
+        Download / Print Resume
+    </button>
+
+
+</body>
+</html>
